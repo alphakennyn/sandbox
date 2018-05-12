@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  height: 200vh;
+  position: relative;
 }
 
 .App-logo {
@@ -20,6 +22,12 @@
 
 .App-intro {
   font-size: large;
+}
+
+.content-box {
+  width: 60vw;
+  height: 40vh;
+  background-color: white;
 }
 
 @keyframes App-logo-spin {

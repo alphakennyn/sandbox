@@ -1,0 +1,22 @@
+.Navbar {
+    position: absolute;
+    width: 100vw;
+    height: 30vh;
+    top: 70vh;
+    background-color: transparent;
+    color: white;
+}
+
+.affix {
+    position: fixed !important;
+    top: 0px !important;
+    z-index: 999;
+    height: 10vh;
+    background-color: aquamarine;
+
+}
+
+.navbar-content {
+    transition-duration: 800ms;
+    height: inherit;
+}
