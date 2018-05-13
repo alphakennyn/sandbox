@@ -32,16 +32,15 @@
 
 #nav-menu>.nav-item {
     text-align: center;
-    /* padding-left: 5%;
-    padding-right: 5%; */
     padding-top: 30%;
-    height: inherit;
     transition-duration: 600ms;
+    border: 5px solid transparent;
+
 }
 
 #nav-menu>.nav-item:hover {
-    background-color: #ddd;
-    color: black;
+    cursor: pointer;
+    border-color: wheat;
 }
 
 .affix #nav-menu .nav-item {
