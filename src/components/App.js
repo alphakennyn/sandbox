@@ -28,8 +28,9 @@ class App extends Component {
 		const windowHeight = window.innerHeight;
 		const windowRoundDown = Math.floor(windowHeight/100)*100;
 		const windowScrollTop = window.top.scrollY; 
+    const windowAdjustment = windowHeight*0.2;
 
-		if(windowScrollTop < windowRoundDown ) {
+		if(windowScrollTop + windowAdjustment < windowRoundDown ) {
 			console.log("affix false")
 			this.setState({
 				affix: false,
